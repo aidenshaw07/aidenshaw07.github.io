@@ -1,6 +1,6 @@
 body {
     background-image: url(img/photo9.avif);
-    background-size: cover;
+    background-size: absolute;
     background-repeat: no-repeat;
     font-family: 'Dancing Script', cursive;
     margin: 20px;
