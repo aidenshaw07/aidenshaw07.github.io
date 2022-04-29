@@ -1,6 +1,7 @@
 body {
-    background-image: url(img/photo5.jpg);
+    background-image: url(img/photo9.avif);
     background-size: cover;
+    background-repeat: no-repeat;
     font-family: 'Dancing Script', cursive;
     margin: 20px;
 }
@@ -19,27 +20,47 @@ header {
     font-family: 'Dancing Script', cursive;
 }
 
-nav {
-    text-align: center;
-    padding: 10px;
-    font-size: 30px;
-}
-
 footer {
     text-align: center;
     padding: 10px;
     font-size: 20px;
 }
 
+img{
+    border: solid;
+    border-color: gray;
+    padding: 5px;
+    border-width: 3px;
+}
+
 .center {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 15%;
+    margin: 3em auto;
+    width: 17%;
     border-radius: 25px;
   }
 
   p {
+    display: block;
+    color: white;
     font-size: 20px;
     font-family: 'Patrick Hand', cursive;
+  }
+
+  ul {
+    text-align: center;
+  }
+  
+  li {
+    display: inline;
+    padding: 10px;
+    font-size: 30px;
+  }
+
+  a:hover {
+    color: #f1f1f1;
+  }
+
+  a:active {
+    color: black;
   }
